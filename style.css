@@ -1,0 +1,105 @@
+body {
+    background-image: url(background\ image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.left img {
+    height: 130px;
+    width: 120px;
+    border-radius: 10px;
+    top: 5%;
+}
+
+
+.center {
+    border: 2px;
+    width: 50%;
+    display: block;
+    margin: 5px auto;
+}
+
+.navbar {
+    display: inline-block;
+
+}
+
+.navbar li a {
+    display: inline-block;
+    text-decoration: none;
+    color: brown;
+    background: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.navbar li a:hover {
+    display: inline-block;
+    text-decoration: none;
+    color: grey;
+    ;
+    cursor: pointer;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.left {
+    border: 2px;
+    margin: 8px auto;
+    left: 20px;
+    top: 10px;
+    position: absolute;
+    display: inline-block;
+
+}
+
+.name {
+    top: 20%;
+    left: 80;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 26px;
+}
+
+.container {
+    margin: 1% 20%;
+
+    padding: 25px;
+    width: 27%;
+    border-radius: 25px;
+    font-size: 25px;
+}
+
+button {
+    cursor: pointer;
+    width: 25%;
+    padding: 7px;
+    margin: 15px 6px;
+    border-radius: 50px;
+    border-color: greenyellow;
+    font: bold;
+}
+
+button:hover {
+    background: black;
+    color: white;
+
+}
+
+.form input {
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px;
+    margin: 20px auto;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    border-color: black;
+
+}
